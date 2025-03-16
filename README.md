@@ -12,6 +12,9 @@ This project implements a **multi-agent system** designed to optimize load balan
 ## Project Structure
 All Java files are located in the `src` directory. The project is organized as follows:
 
+## Project Structure
+All Java files are located in the `src` directory. The project is organized as follows:
+
 ├── src/
 │   ├── PrincipalAgent.java
 │   ├── AgentVideoSupervisor.java
