@@ -12,9 +12,7 @@ This project implements a **multi-agent system** designed to optimize load balan
 ## Project Structure
 All Java files are located in the `src` directory. The project is organized as follows:
 
-## Project Structure
-All Java files are located in the `src` directory. The project is organized as follows:
-
+```
 ├── src/
 │   ├── PrincipalAgent.java
 │   ├── AgentVideoSupervisor.java
@@ -35,6 +33,7 @@ All Java files are located in the `src` directory. The project is organized as f
 │   ├── sequence_diagram.png
 │   └── project_description.pdf
 ├── README.md
+```
 
 ## Diagrams
 ### Deployment Diagram
@@ -52,31 +51,34 @@ The **Sequence Diagram** depicts the sequence of interactions between the system
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/your-repo-name.git
-
+   ```
 2. Navigate to the project directory:
-
-cd your-repo-name
-
+   ```bash
+   cd your-repo-name
+   ```
 3. Build the project using Maven:
+   ```bash
+   mvn clean install
+   ```
 
-mvn clean install
-
-
-Running the Project
-
+### Running the Project
 1. Start the JADE platform:
-java -cp target/your-repo-name.jar jade.Boot -gui 
-
+   ```bash
+   java -cp target/your-repo-name.jar jade.Boot -gui
+   ```
 2. Run the main class to start the system:
-java -cp target/your-repo-name.jar Main
+   ```bash
+   java -cp target/your-repo-name.jar Main
+   ```
 
-
-3. Start the JADE Platform
-
+### Compiling and Running the JADE Platform
 1. Compile your Java classes:
-javac -cp jade.jar:. *.java
+   ```bash
+   javac -cp jade.jar:. *.java
+   ```
+   Replace `jade.jar` with the path to your JADE library.
+2. Start the JADE platform and run your agent:
+   ```bash
+   java -cp jade.jar:. jade.Boot -gui -agents myAgent:MyAgent
+   ```
 
-Replace jade.jar with the path to your JADE library.
-
-2.Start the JADE platform and run your agent:
-java -cp jade.jar:. jade.Boot -gui -agents myAgent:MyAgent
