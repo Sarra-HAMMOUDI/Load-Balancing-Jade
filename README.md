@@ -12,25 +12,25 @@ This project implements a **multi-agent system** designed to optimize load balan
 ## Project Structure
 All Java files are located in the `src` directory. The project is organized as follows:
 
-├── /src
-│ ├── PrincipalAgent.java
-│ ├── AgentVideoSupervisor.java
-│ ├── AgentVideoAnnuaire.java
-│ ├── AgentImageSupervisor.java
-│ ├── AgentImageAnnuaire.java
-│ ├── AgentTextSupervisor.java
-│ ├── AgentTextAnnuaire.java
-│ ├── AgentMonitor.java
-│ ├── AgentSurveillance.java
-│ ├── AgentSupervisor.java
-│ ├── Server1.java
-│ ├── Server2.java
-│ ├── Server3.java
-│ └── Main.java
-├── /docs
-│ ├── deployment_diagram.png
-│ ├── sequence_diagram.png
-│ └── project_description.pdf
+├── src/
+│   ├── PrincipalAgent.java
+│   ├── AgentVideoSupervisor.java
+│   ├── AgentVideoAnnuaire.java
+│   ├── AgentImageSupervisor.java
+│   ├── AgentImageAnnuaire.java
+│   ├── AgentTextSupervisor.java
+│   ├── AgentTextAnnuaire.java
+│   ├── AgentMonitor.java
+│   ├── AgentSurveillance.java
+│   ├── AgentSupervisor.java
+│   ├── Server1.java
+│   ├── Server2.java
+│   ├── Server3.java
+│   └── Main.java
+├── docs/
+│   ├── deployment_diagram.png
+│   ├── sequence_diagram.png
+│   └── project_description.pdf
 ├── README.md
 
 
