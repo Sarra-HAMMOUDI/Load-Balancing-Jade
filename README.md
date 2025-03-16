@@ -33,18 +33,12 @@ All Java files are located in the `src` directory. The project is organized as f
 │   └── project_description.pdf
 ├── README.md
 
-
-
 ## Diagrams
 ### Deployment Diagram
 The **Deployment Diagram** illustrates the physical deployment of the system components across servers and clusters. It shows how the **Resource Manager**, **Cluster Heads**, and **Servers** interact to ensure efficient load balancing.
 
-![Deployment Diagram](docs/deployment_diagram.png)
-
 ### Sequence Diagram
 The **Sequence Diagram** depicts the sequence of interactions between the system components during a client request. It highlights the dynamic assignment of requests to the underloaded server.
-
-![Sequence Diagram](docs/sequence_diagram.png)
 
 ## Getting Started
 ### Prerequisites
